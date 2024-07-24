@@ -17,6 +17,7 @@ on:
       - '.run/**'
       - '**.md'
       - '!.github/workflows/gradle.yml'
+  workflow_dispatch:
 
 jobs:
   build:
